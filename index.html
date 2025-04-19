@@ -1,157 +1,320 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo</title>
-    <link rel="stylesheet" href="styles1.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iverton Emiquison</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="icon" href="./assets/img/I_icon.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="./assets/css/styles_pricipal.css">
 </head>
 
 <body>
-    <div class="container_pricipal">
-        <div class="mobile-menu-icon">
-            <button onclick="menuShow()"><img class="icon" src="image/menu_white_36dp.svg" alt=""></button>
+  <header class="header-menu">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <div class="d-flex align-items-center">
+          <a class="navbar-brand" href="index.html">
+            <img src="./assets/img/I_icon.png" width="40px" alt="LOGO" class="logo">
+            <span class="name-style">Iverton Emiquison</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="hamburguer-toggler"></span><i class="bi bi-justify"></i>
+            <span class="hamburguer-toggler-close"></span><i class="bi bi-x"></i>
+          </button>
         </div>
-      
-            <ul id="menu-principal" class="menu-principal">
-                <li class="nav-item"><a href="#contato"><i class="fas fa-id-card"></i> Contato</a></li>
-                <li class="nav-item"><a href="#sobre-mim"><i class="fas fa-user"></i> Sobre Mim</a></li>
-                <li class="nav-item"><a href="#habilidades"><i class="fas fa-tools"></i> Habilidades</a></li>
-                <li class="nav-item"><a href="#projetos"><i class="fas fa-project-diagram"></i> Projetos de Pesquisa</a></li>
-                <li class="nav-item"><a href="#experiencia"><i class="fas fa-briefcase"></i> Experiência Profissional</a></li>
-                <li class="nav-item"><a href="#formacao"><i class="fas fa-graduation-cap"></i> Formação</a></li>
-                <li class="nav-item"><a href="#certificacoes"><i class="fas fa-certificate"></i> Certificações</a></li>
-                <li class="nav-item"><a href="#outras-informacoes"><i class="fas fa-info-circle"></i> Outras Informações</a></li>
-                <li class="nav-item"><a href="#social-media"><i class="fas fa-share-alt"></i> Redes Sociais</a></li>
-            </ul>
-
-        <div class="dive1"></div>
-        
-        <div class="mobile-menu">
-            <ul class="menu">
-                <li class="nav-item"><a href="#contato"><i class="fas fa-id-card"></i> Contato</a></li>
-                <li class="nav-item"><a href="#sobre-mim"><i class="fas fa-user"></i> Sobre Mim</a></li>
-                <li class="nav-item"><a href="#habilidades"><i class="fas fa-tools"></i> Habilidades</a></li>
-                <li class="nav-item"><a href="#projetos"><i class="fas fa-project-diagram"></i> Projetos de Pesquisa</a></li>
-                <li class="nav-item"><a href="#experiencia"><i class="fas fa-briefcase"></i> Experiência Profissional</a></li>
-                <li class="nav-item"><a href="#formacao"><i class="fas fa-graduation-cap"></i> Formação</a></li>
-                <li class="nav-item"><a href="#certificacoes"><i class="fas fa-certificate"></i> Certificações</a></li>
-                <li class="nav-item"><a href="#outras-informacoes"><i class="fas fa-info-circle"></i> Outras Informações</a></li>
-                <li class="nav-item"><a href="#social-media"><i class="fas fa-share-alt"></i> Redes Sociais</a></li>
-            </ul>
-        </div> 
-        <div class="container">
-            <header>
-                <div class="profile-picture">
-                </div>
-                <div class="header-text">
-                    <h1>Iverton Emiquison Ribeiro de Bessa</h1>
-                </div>
-            </header>
-            <section id="contato" class="contato">
-                <h2>Contato</h2>
-                <ul>
-                   
-                    <li><img src="image/git.png" class="imag-contatos"> <a href="https://github.com/IVERTON-EMIQUISON">IVERTON-EMIQUISON</a></li>
-                    <li><img src="image/email.png" class="imag-contatos"> <a href="mailto:ivertonbessa@mail.com">ivetonbessa@mail.com</a></li>
-                    <li> <img src="image/telefone.png" class="imag-contatos"><span style="color:#ff6600;;">(84) 997028897</span></li>
-                </ul>
-            </section>
-            <section id="sobre-mim" class="sobre-mim">
-                <h2>Sobre-mim</h2>
-                <p>
-                    Sou Bacharel em Tecnologia da Informação e atualmente estou cursando Engenharia de Software pela renomada Universidade Federal Rural do Semi-Árido (UFERSA).
-                    Minha jornada acadêmica reflete uma paixão intensa pela programação e tecnologia, com uma dedicação inabalável aos estudos.
-                    Estou comprometido em adquirir conhecimentos sólidos e aplicá-los de maneira prática, com o objetivo de contribuir significativamente para o avanço profissional.
-                    Além disso, estou sempre em busca de novos desafios e oportunidades para expandir meu conhecimento e impactar positivamente o campo da tecnologia.
-                    Estou pronto para enfrentar qualquer desafio e transformar ideias inovadoras em realidade, trazendo soluções eficazes e criativas para o mercado.</p>
-            </section>
-            <section id="habilidades" class="habilidades">
-                <h2>Habilidades</h2>
-                <ul>
-                    <li>HTML/CSS <span class="skill-bar"><span class="HTMAL_CSS"></span></span></li>
-                    <li>Java<span class="skill-bar"><span class="Java"></span></span></li>
-                    <li>JavaScript <span class="skill-bar"><span class="JavaScript"></span></span></li>
-                    <li>Python<span class="skill-bar"><span class="Python"></span></span></li>
-                    <li>Django <span class="skill-bar"><span class="Django"></span></span></li>
-                    <li>C<span class="skill-bar"><span class="C"></span></span></li>
-                </ul>
-            </section>
-            <section id="projetos" class="projetos">
-                <h2>Projetos de Pesquisa</h2>
-                <ul>
-                    <li>Objeto de aprendizagem para o estudo de Conceitos de Cinemática (UFERSA)- trabalho apresentado:
-                        <a href="https://shre.ink/8eV1">Linguagem Java</a>
-                    </li>
-                    <li>Metodologias Ativas para o ensino de Ciências Exatas e Naturais , como Bolsista CNPq(UFERSA) 24/08/2022 - 31/12/2025</li>
-                </ul>
-            </section>
-            <section id="experiencia" class="experiencia">
-                <h2>Experiência Profissional</h2>
-                <ul>
-                    <li>Experiência com desenvolvimento web</li>
-                    <li>Monitor no IV Seminário Internacional de Tecnologia e Ensino (IV SEMITE) - (UFERSA):<a href="https://https://shre.ink/8ewh">Certificação</a></li>
-                </ul>
-            </section>
-            <section id="formacao" class="formacao">
-                <h2>Formação</h2>
-                <ul>
-                    <li>
-                        <h3>Bacharelado em Tecnologia da Informação </h3>
-                        <p>Universidade Federal Rural do Semi-Árido (Ufersa) | 2020 - 2024</p>
-                    </li>
-                    <li>
-                        <h3>FRONT END T5</h3>
-                        <p>ONE + Alura | 2023</p>
-                    </li>
-                    <li>
-                        <h3>React T5</h3>
-                        <p>Alura | 2023</p>
-                    </li>
-                    <li>
-                        <h3>Desenvolvimento Pessoal T5</h3>
-                        <p>Alura | 2023</p>
-                    </li>
-                </ul>
-            </section>
-
-            <section id="certificacoes" class="certificacoes">
-                <h2>Certificações</h2>
-                <ul>
-                    <li>Curso: Programa de Iniciação Tecnológica e Cidadania - Instituição: IFRN - (Carga horária 160h) | 2012</li>
-                    <li>Curso: AWS Academy Cloud Foundations - Instituição:
-                    AWS Academy Graduate - (Carga horária 20h) | 2023.Disponível:<a href="https://www.credly.com/go/q6T22VmM"> AWS Academy</a></li>
-                    <li>Curso: Criação de uma aplicação Java com Spring Boot - Instituição: (ROCKETSEAT) | 2023. Disponível:<a href="https://shre.ink/8eJ8">Java com Spring</a></li>
-                    <li>Curso: - Mini curso Git e GitHub - Instituição: (UFERSA) - (Carga horária 30h) | 2023</li>
-                    <li>Formação Alura - | 2023. Disponível: <a href="https://cursos.alura.com.br/user/ivertonbessa/fullCertificate/b1441506078ebb099a021f7f2aa2d743">Certificações Alura</a></li>
-                    <li>Curso: Programação Criativa no IV Seminário
-                    Internacional de Tecnologia e Ensino (IV SEMITE) (Carga horária 30h) | 2023</li>
-                   
-                </ul>
-            </section>
-
-            <section id="outras-informacoes" class="outras-informacoes">
-                <h2>Outras Informações</h2>
-                <ul>
-                    <li>Adaptabilidade</li>
-                    <li>Resolução de problemas</li>
-                    <li>Gerenciamento de projetos</li>
-                    <li>Facilidade em trabalhos de equipe</li>
-                    <li>Experiência com o uso do GitHub</li>
-                    <li>CNH</li>
-                </ul>
-            </section>
-            <section id="social-media" class="social-media">
-                <h2>Redes Sociais</h2>
-                <ul>
-                    <li><img src="image/linkedin.png" class="imag-contatos"> <a href="https://www.linkedin.com/in/iverton-emiquison-9a5441231/?originalSubdomain=br">iverton-emiquison</a></li>
-                    <li><img src="image/instagram (1).png" class="imag-contatos"><a href="https://www.instagram.com/accounts/edit/?__coig_login=1">Iverton Bessa</a></li>
-                </ul>
-            </section>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#aboutme">Sobre mim</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projetos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contatos</a>
+            </li>
+            <li class="nav-item">
+              <a href="./assets/curriculo.pdf" download="curriculo" target="_blank">
+                <button class="btn ms-4 px-4" href="#">Currículo</button>
+              </a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+
+    <section class="home d-flex align-items-center" id="home">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-xl-6 col-lg-8 col-md-12 col-sm-12">
+            <div class="intro">
+              <h4 class="intro-name">Iverton</h4>
+            </div>
+            <div class="job-title">
+              <p class="job-title text-white">Desenvolvedor,</p>
+              <p class="job-title text-right text-white">Front-End<span class="clr">!</span></p>
+            </div>
+            <p class="description">
+              Desenvolvedor front-end com foco em interfaces modernas, responsivas e orientadas à experiência do usuário. Transformo ideias em soluções digitais eficientes e visualmente atraentes.
+            </p>
+            
+            <a href="https://wa.me/+5584997028897" target="_blank">
+              <button class="btn px-4">Contato</button>
+            </a>
+          </div>
+          <div class="image-container col-xl-6 col-lg-4 col-md-12 col-sm-12 d-flex flex-column align-items-end">
+            <div class="circle1">
+              <img src="./assets/img/iverton1.png" class="img-fluid" alt="Illustration1">
+            </div>
+            <div class="social-media-buttons d-flex justify-content-center mt-3 me-4">
+              <a href="https://wa.me/+5584997028897" class="btn btn-outline-light btn-social btn-social-lg"
+                target="_blank"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.instagram.com/ivertonbessa/" class="btn btn-outline-light btn-social btn-social-lg"
+                target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/iverton-emiquison-9a5441231/"
+                class="btn btn-outline-light btn-social btn-social-lg" target="_blank"><i
+                  class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/IVERTON-EMIQUISON" class="btn btn-outline-light btn-social btn-social-lg"
+                target="_blank"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="container-main">
+    <section class="aboutme pt-3" id="aboutme">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="image-container col-xl-6 col-lg-4 col-md-12 col-sm-12 mt-5 d-flex justify-content-start">
+            <div class="circle">
+              <img src="./assets/img/iverton.png" class="img-fluid" alt="Illustration2">
+            </div>
+          </div>
+
+          <div class="skills col-xl-6 col-lg-8 col-md-12 col-sm-12">
+
+            <h1 class="abtme pt-5">Sobre <span class="clr">mim</span></h1>
+            <p class="abtme-desc">Sou Bacharel em Tecnologia da Informação e atualmente cursando Engenharia de Software
+              pela renomada (UFERSA). Minha jornada acadêmica reflete numa paixão intensa pela programação e tecnologia.
+              Estou comprometido em adquirir conhecimentos sólidos e aplicá-los de maneira prática, com o objetivo de
+              contribuir significativamente para o avanço profissional. Além disso, estou sempre em busca de novos
+              desafios e oportunidades para expandir meu conhecimento e impactar positivamente o campo da tecnologia.
+            </p>
+
+            <div class="skill">
+              <div class="skill-name">HTML/CSS</div>
+              <div class="skill-bar">
+                <div class="skill-per" style="max-width:90%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name">Java</div>
+              <div class="skill-bar">
+                <div class="skill-per" style="max-width:88%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name">JavaScript</div>
+              <div class="skill-bar">
+                <div class="skill-per" style="max-width:75%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name">python</div>
+              <div class="skill-bar">
+                <div class="skill-per" style="max-width:70%"></div>
+              </div>
+            </div>
+
+            <div class="skill">
+              <div class="skill-name">Django</div>
+              <div class="skill-bar">
+                <div class="skill-per" style="max-width:78%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects pb-1 pt-5" id="projects">
+      <div class="container">
+        <h1 class="text-left pt-4">Alguns dos meus <span class="clr">projetos</span></h1>
+
+        <div id="projectCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="row justify-content-center">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="./assets/img/tecnologia_educacional.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                      <h5 class="card-title-work">Tecnologia Educacional</h5>
+                      <p class="card-text-work">Crio simuladores educacionais voltadas para o ensino de Ciências, Fisica, utilizando JavaScript, HTML/css e Djangoe</p>
+                      <a href="https://github.com/IVERTON-EMIQUISON/" target="_blank" class="btn">Ver Projeto</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="./assets/img/pet_shop.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                      <h5 class="card-title-work">Poritos Pet Shop</h5>
+                      <p class="card-text-work">Aplicação web desenvolvido em JavaScript e Django. Permitindo que os
+                        proprietário de pet shops administrem seus negócios.</p>
+                      <a href="https://github.com/IVERTON-EMIQUISON/PET-SHOPS/tree/main?tab=readme-ov-file"
+                        target="_blank" class="btn">Ver Projeto</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="./assets/img/taskflow.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                      <h5 class="card-title-work">Taskflow</h5>
+                      <p class="card-text-work">Aplicação web desenvolvida em JavaScript e Django. Permite que os usuários criem e gerenciem suas tarefas de forma eficiente.</p>
+                      <a href="https://github.com/IVERTON-EMIQUISON/taskflow.git" target="_blank" class="btn">Ver
+                        Projeto</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="./assets/img/caixa.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                      <h5 class="card-title-work">Caixa de Supermercado</h5>
+                      <p class="card-text-work"> Caixa de supermercado desenvolvido em JavaScript e Django, permitindo o gerenciamento de produtos e vendas.</p>                      
+                      <a href="https://github.com/Verificacao-e-Validacao/vv-back.git" target="_blank" class="btn">Ver
+                        Projeto</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="row justify-content-center">
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="./assets/img/apeperia.png" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                      <h5 class="card-title-work">Home-Apeperia</h5>
+                      <p class="card-text-work">Aplicação web desenvolvida em HTML/CSS e JavaScript. Projeto de uma página de uma empresa fictícia .
+                      </p>
+                      <a href="https://github.com/IVERTON-EMIQUISON/Home-apeperia" target="_blank" class="btn">Ver
+                        Projeto</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card">
+                    <img src="./assets/img/machine_learning.png" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                      <h5 class="card-title-work">Machine Learning Projects</h5>
+                      <p class="card-text-work">Utilizando técnicas de aprendizado de máquina para analisar dados, criar modelos preditivos e gerar insights.</p>
+                    </p>
+                      <a href="https://github.com/IVERTON-EMIQUISON/Nivel-de-estresse-do-aluno.git"
+                        target="_blank" class="btn">Ver Projeto</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="container mb-5">
+
+      <h1 class="text-center mt-5 ">Fale <span class="clr">comigo!</span></h1>
+      <p class="srvc-desc d-50 mx-auto text-center mb-5">Para entrar em contato por e-mail, insira seu endereço no campo
+        abaixo. Caso prefira, utilize os links de contato disponíveis no rodapé ou na página inicial.</p>
+
+      <div class="email-container">
+        <input class="email-field" type="email" id="email" name="email" placeholder="Didite seu email" required>
+        <button class="btn" onclick="sendEmail()">Entre em contado comigo</button>
+      </div>
+
+      <div class="final-info-logo mt-5 pt-5">
+        <img src="./assets/img/I_icon.png" width="40px" class="logo" alt="Logo">
+        <span class="name-style">Iverton Emiquison</span>
+      </div>
+
+      <ul class="navbar-nav-footer m-3">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutme">Sobre mim</a>
+        </li> 
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projrtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contatos</a>
+        </li>
+      </ul>
+
+      <div class="social-media-buttons-footer d-flex justify-content-center mt-3">
+        <a href="https://wa.me/+5584997028897" class="btn btn-outline-light btn-social btn-social-lg" target="_blank"><i
+            class="bi bi-whatsapp"></i></a>
+        <a href="https://www.instagram.com/ivertonbessa/" class="btn btn-outline-light btn-social btn-social-lg"
+          target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/iverton-emiquison-9a5441231//"
+          class="btn btn-outline-light btn-social btn-social-lg" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/IVERTON-EMIQUISON" class="btn btn-outline-light btn-social btn-social-lg"
+          target="_blank"><i class="bi bi-github"></i></a>
+      </div>
+
+      <div class="row">
+        <div class="col-xl-12 mt-5 cr-footer">
+          <span class="text-white mx-auto inc-text">&copy; 2024<span class="clr"><b> Iverton Emiquison</b></span> Todos
+            os direitos reservados. </span>
+        </div>
+      </div>
     </div>
-    <script src="scripts.js"></script>
+  </footer>
+
+  <script src="./assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
